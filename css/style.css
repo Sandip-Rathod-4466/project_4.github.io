@@ -1,0 +1,119 @@
+@import url(../css/fonts.css);
+
+    /* font-family: Poppins; */
+    /* font-family: Roboto; */
+    /* font-family: oswald; */
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.navbar{
+    padding: 20px 0;
+}
+#bar{
+    font-size: 30px;
+    color: rgb(51, 85, 122);
+}
+.icons i{
+    font-size: 25px;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.nav-item .nav-link{
+    color: white;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.banner{
+    padding: 2% 0;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5% 0;
+    color: #00bf72;
+}
+.title:after{
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #008793;
+    display: block;
+    transform: translateY(10px);
+    margin: 0 auto;
+
+}
+#offer img{
+    margin: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img{
+    margin:10px;
+}   
+
+
+.img-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-bottom: 20px !important;
+}
+.hover img{
+    transition: all 0.4s ease-in-out;
+}
+.hover{
+    overflow: hidden;
+}
+.hover img:hover{
+    transform: scale(1.1);
+}
+
+.sale{
+    text-transform: uppercase;
+    padding: 5%;
+}
+.sale h2{
+    margin-bottom: 10px;
+}
+
+.time span{
+    width: 100px;
+    background-color: whitesmoke;
+    margin-right:20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sale .time{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.img1{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.contact-info{
+    margin-left: 10%;
+    line-height: 60px;
+}
